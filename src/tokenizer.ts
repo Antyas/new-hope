@@ -1,4 +1,4 @@
-import { Token } from "./token";
+import { Token } from "./token.ts";
 
 export const tokenize = (words: string[]): Token[] =>
   words.map((word) => recurrToknize(word));
